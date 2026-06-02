@@ -209,28 +209,9 @@ strong{color:var(--ink);font-weight:600;}
 .lead-step .sn{width:28px;height:28px;flex-shrink:0;border-radius:50%;display:grid;place-items:center;font-family:'JetBrains Mono',monospace;font-size:0.7rem;font-weight:600;color:var(--gold-br);border:1px solid rgba(210,178,92,0.4);}
 .lead-step b{display:block;color:var(--bone);font-size:0.92rem;font-weight:600;margin-bottom:0.1rem;}
 .lead-step span{font-size:0.82rem;color:rgba(245,241,232,0.55);line-height:1.45;}
-.lead-right{padding:clamp(2rem,4vw,3.2rem);background:var(--paper);display:flex;flex-direction:column;justify-content:center;}
-.lead-right h3{font-size:clamp(1.5rem,2.4vw,2rem);margin-bottom:0.6rem;}
-.lead-right p.sub{font-size:0.9rem;color:var(--ink-mute);margin-bottom:1.6rem;line-height:1.55;}
-.field{margin-bottom:0.9rem;}
-.field label{display:block;font-family:'JetBrains Mono',monospace;font-size:0.62rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-mute);margin-bottom:0.4rem;}
-.field input{
-  width:100%;padding:0.95rem 1.1rem;border:1px solid var(--line);border-radius:var(--r);
-  background:var(--bone);color:var(--ink);font-family:inherit;font-size:0.95rem;transition:border-color .25s,box-shadow .25s,background .25s;
-}
-.field input::placeholder{color:var(--ink-faint);}
-.field input:focus{outline:none;border-color:var(--gold);background:#fff;box-shadow:0 0 0 3px var(--gold-soft);}
-.lead-form .btn{width:100%;justify-content:center;margin-top:0.4rem;}
-.form-fine{font-size:0.74rem;color:var(--ink-faint);text-align:center;margin-top:1rem;line-height:1.5;}
-.form-msg{display:none;padding:1rem 1.1rem;border-radius:var(--r);font-size:0.88rem;margin-top:0.5rem;line-height:1.5;}
-.form-msg.ok{display:block;background:var(--gold-soft);border:1px solid rgba(154,123,54,0.3);color:var(--gold);}
-.form-msg.err{display:block;background:rgba(150,40,40,0.08);border:1px solid rgba(150,40,40,0.25);color:#9a3535;}
-.lead-success{display:none;text-align:center;padding:1rem 0;}
-.lead-success.show{display:block;}
-.lead-success .ck{width:54px;height:54px;border-radius:50%;background:var(--gold-soft);border:1px solid rgba(154,123,54,0.35);color:var(--gold);display:grid;place-items:center;margin:0 auto 1rem;font-size:1.5rem;}
-.lead-success h3{margin-bottom:0.5rem;}
-.btn-spin{display:inline-block;width:15px;height:15px;border:2px solid rgba(245,241,232,0.4);border-top-color:var(--bone);border-radius:50%;animation:spin .7s linear infinite;}
-@keyframes spin{to{transform:rotate(360deg);}}
+/* Klaviyo embed panel */
+.lead-right{padding:clamp(1.5rem,3vw,2.4rem);background:var(--paper);display:flex;flex-direction:column;justify-content:center;min-height:100%;}
+.lead-right .klaviyo-form-QQ4wL4{width:100%;}
 
 /* ═══ SECTION HEADER ═══ */
 .sec-head{max-width:760px;margin-bottom:clamp(2.5rem,5vw,4rem);}
