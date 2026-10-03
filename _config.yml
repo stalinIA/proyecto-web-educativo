@@ -1,0 +1,10 @@
+# GitHub Pages: publica el sitio tal cual, pero sin los archivos internos.
+# (Las carpetas y archivos que empiezan con . o _ tampoco se publican.)
+exclude:
+  - automatizacion
+  - LEEME.md
+  - "*.gs"
+  - assets/originales
+include:
+  - llms.txt
+  - llms-full.txt

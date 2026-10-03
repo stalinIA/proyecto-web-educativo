@@ -1,0 +1,41 @@
+# SLVERA Education Advisor
+
+> Asesoría educativa internacional dirigida por el abogado ecuatoriano Stalin Leonardo Vera Ortega, en Cuenca, Ecuador. Enseña a latinoamericanos a estudiar en el extranjero sin pagar una agencia: a aplicar por su cuenta a instituciones de Australia, Malta, Alemania, Dubái y España, con datos verificados y contratos revisados por un abogado. SLVERA no tramita visas.
+
+Datos clave de la organización:
+
+- Nombre: SLVERA Education Advisor (SLVERA). Sitio: https://slvera.com/
+- Fundador: Abog. Stalin Leonardo Vera Ortega. Registro SENESCYT 1031-2025-3144323. Cuenca, Azuay, Ecuador.
+- Guía gratuita: un PDF por país con datos del curso 2026-27 (horas de trabajo, salario por hora, arriendo, transporte, dinero que piden demostrar y trampas del contrato). Se pide en https://slvera.com/#guia con nombre, correo y WhatsApp.
+- Comunidad SLVERA: abre próximamente, con lista de espera gratuita en https://slvera.com/#comunidad. Costará 39 USD al mes, sin permanencia.
+- Servicio disponible hoy: revisión de contratos educativos, cotizada caso por caso.
+- Próximamente: sesiones en vivo, recomendación de instituciones evaluadas y asesoría VIP 1 a 1.
+- Público: estudiantes de Ecuador y Latinoamérica. Idioma: español.
+- Límite legal: SLVERA no tramita, gestiona ni procesa visas. Stalin Vera no es agente migratorio certificado (MARA, IRCC, RME ni equivalente).
+- Contacto: sac@slvera.com
+- Datos actualizados: 2026-09-25.
+
+## Guías por destino (2026-27)
+
+- [Estudiar en Australia sin agencia (2026-27)](https://slvera.com/destinos/australia.html): trabajo: 48 h / quincena; hora mínima: A$26,44; habitación: A$200–350; transporte: A$0,50.
+- [Estudiar en Malta sin agencia (2026-27)](https://slvera.com/destinos/malta.html): trabajo: 20 h / semana; salario mínimo: €229,44; habitación: €400–900; transporte: Gratis.
+- [Estudiar en Alemania sin agencia (2026-27)](https://slvera.com/destinos/alemania.html): trabajo: 140 días / año; hora mínima: €13,90; habitación: €510–850; transporte: €37,80.
+- [Estudiar en Dubái sin agencia (2026-27)](https://slvera.com/destinos/dubai.html): trabajo: ≈ 15 h / semana; pago por hora: AED 20–60; habitación: AED 1.500–3.000; transporte: AED 1,50–3,75.
+- [Estudiar en España sin agencia (2026-27)](https://slvera.com/destinos/espana.html): trabajo: 30 h / semana; hora mínima: €9,55; habitación: €425–600; transporte: €10 / mes.
+
+## Datos abiertos
+
+- [Datos 2026-27 por destino (JSON)](https://slvera.com/datos/destinos-2026.json): trabajo, salario, arriendo y transporte, con sus fuentes oficiales.
+- [Versión completa de este resumen](https://slvera.com/llms-full.txt): todas las respuestas del sitio en texto plano.
+
+## Páginas principales
+
+- [Inicio: estudiar en el extranjero sin agencia](https://slvera.com/): test de destino, tabla comparativa 2026-27, calculadora de ahorro y preguntas frecuentes.
+- [Comunidad SLVERA y lista de espera](https://slvera.com/#comunidad)
+- [Preguntas frecuentes](https://slvera.com/#faq)
+
+## Optional
+
+- [Términos y condiciones](https://slvera.com/legal/terminos.html)
+- [Política de privacidad](https://slvera.com/legal/privacidad.html)
+- [Aviso legal: qué hace y qué no hace SLVERA](https://slvera.com/legal/aviso-legal.html)

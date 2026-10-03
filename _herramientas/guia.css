@@ -1,0 +1,92 @@
+/* Estilo de las guías PDF (A4). {F} se reemplaza por la carpeta de fuentes. */
+@font-face{font-family:Fraunces;font-weight:600;src:url('{F}/fraunces-a.ttf')}
+@font-face{font-family:Fraunces;font-weight:500;font-style:italic;src:url('{F}/fraunces-b.ttf')}
+@font-face{font-family:Fraunces;font-weight:400;font-style:italic;src:url('{F}/fraunces-it400.ttf')}
+@font-face{font-family:Inst;font-weight:400;src:url('{F}/instrument-b.ttf')}
+@font-face{font-family:Inst;font-weight:500;src:url('{F}/instrument-500.ttf')}
+@font-face{font-family:Inst;font-weight:600;src:url('{F}/instrument-a.ttf')}
+@font-face{font-family:Mono;font-weight:500;src:url('{F}/jetbrains-500.ttf')}
+@page{size:A4;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+body{font-family:Inst,sans-serif;color:#2B3A52;font-size:11.8pt;line-height:1.55}
+.pg{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:#F6F4EF;padding:20mm 18mm 22mm}
+.pg:last-child{page-break-after:auto}
+h1,h2,h3{font-family:Fraunces,serif;font-weight:600;color:#0E1B2E;letter-spacing:-.02em;line-height:1.05}
+h2{font-size:31pt;margin-bottom:6mm}
+h3{font-size:14.5pt;margin:0 0 2mm}
+em{font-family:Fraunces,serif;font-style:italic;font-weight:500;color:#B84E29}
+.lab{font-family:Mono,monospace;font-size:7pt;letter-spacing:.18em;text-transform:uppercase;color:#1F4E9C;margin-bottom:4mm;display:block}
+p+p{margin-top:3mm}
+.muted{color:#56637A}
+.pie{position:absolute;left:18mm;right:18mm;bottom:10mm;display:flex;justify-content:space-between;font-family:Mono,monospace;font-size:6.5pt;letter-spacing:.12em;text-transform:uppercase;color:#8993A5;border-top:.3mm solid rgba(14,27,46,.12);padding-top:3mm}
+/* portada */
+.cover{padding:0;background:#0D1A2D}
+.cover .foto{position:absolute;inset:0 0 38% 0;background-size:cover;background-position:center}
+.cover .foto::after{content:'';position:absolute;inset:0;background:linear-gradient(to bottom,rgba(13,26,45,.1),rgba(13,26,45,.25) 60%,#0D1A2D)}
+.cover .top{position:absolute;top:14mm;left:18mm;right:18mm;display:flex;justify-content:space-between;align-items:center;z-index:2}
+.mark{display:flex;align-items:center;gap:3mm;color:#FCFBF8}
+.mark i{width:10mm;height:10mm;border-radius:50%;background:#1F4E9C;display:grid;place-items:center;font-style:normal;font-family:Fraunces;font-weight:600;font-size:9pt}
+.mark b{font-family:Fraunces;font-weight:600;letter-spacing:.18em;font-size:11pt}
+.chip{font-family:Mono;font-size:6.5pt;letter-spacing:.16em;text-transform:uppercase;color:#FCFBF8;background:rgba(13,26,45,.55);padding:2mm 3.5mm;border-radius:10mm}
+.cover .txt{position:absolute;left:18mm;right:18mm;bottom:22mm;z-index:2;color:rgba(246,244,239,.8)}
+.cover .code{display:inline-grid;place-items:center;width:13mm;height:13mm;border-radius:50%;background:#FCFBF8;color:#1F4E9C;font-family:Mono;font-size:9pt;margin-bottom:6mm}
+.cover h1{font-size:50pt;color:#F6F4EF;line-height:.95;letter-spacing:-.035em}
+.cover h1 em{color:#EA8A62}
+.cover .sub{font-size:12.5pt;margin-top:6mm;max-width:145mm;line-height:1.45}
+.cover .by{display:flex;align-items:center;gap:3.5mm;margin-top:10mm;padding-top:6mm;border-top:.3mm solid rgba(246,244,239,.18);font-size:9pt}
+.cover .by img{width:12mm;height:12mm;border-radius:50%;object-fit:cover}
+.cover .by b{display:block;color:#F6F4EF;font-weight:600}
+/* resumen */
+.corta{background:#FCFBF8;border:.35mm solid rgba(14,27,46,.12);border-radius:5mm;padding:7mm 8mm;font-size:13.4pt;line-height:1.55;color:#0E1B2E;margin-bottom:7mm}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:4mm;margin-bottom:7mm}
+.kpi{background:#FCFBF8;border-radius:4mm;padding:5.5mm 6mm;border:.3mm solid rgba(14,27,46,.08)}
+.kpi span{display:block;font-family:Mono;font-size:6.5pt;letter-spacing:.16em;text-transform:uppercase;color:#8993A5;margin-bottom:2.5mm}
+.kpi b{display:block;font-family:Fraunces;font-weight:600;font-size:24pt;color:#1F4E9C;line-height:1;letter-spacing:-.02em}
+.kpi em{display:block;font-family:Inst;font-style:normal;font-weight:400;font-size:9.8pt;color:#56637A;margin-top:2mm}
+.aviso{border:.45mm solid #1F4E9C;background:#EEF3FA;border-radius:4mm;padding:5mm 6mm;font-size:10.4pt;line-height:1.5}
+.aviso b{color:#0E1B2E}
+/* bloques */
+.blk{margin-bottom:6mm}
+.big{background:#1F4E9C;color:rgba(252,251,248,.85);border-radius:5mm;padding:7mm 8mm;margin:6mm 0}
+.big .lab{color:#DDE6F3}
+.big .n{font-family:Fraunces;font-weight:600;font-size:46pt;color:#FCFBF8;letter-spacing:-.03em;line-height:1;margin:1mm 0 2.5mm}
+.big p{font-size:11pt}
+table{width:100%;border-collapse:collapse;background:#FCFBF8;border-radius:4mm;overflow:hidden;margin-top:3mm;font-size:11pt}
+th,td{text-align:left;padding:3.4mm 5mm;border-bottom:.3mm solid rgba(14,27,46,.08)}
+thead th{font-family:Mono;font-weight:500;font-size:6.5pt;letter-spacing:.14em;text-transform:uppercase;color:#56637A;background:#EFECE4}
+td b{color:#0E1B2E}
+tr:last-child td{border-bottom:0}
+.ws td:last-child{width:48mm;border-bottom:.35mm dashed rgba(14,27,46,.25)}
+.ws tr.tot td{font-weight:600;color:#0E1B2E;background:#EEF3FA}
+.fuente{font-size:8.3pt;color:#8993A5;margin-top:2mm}
+.mov{margin-top:6mm;background:#EEF3FA;border-radius:4mm;padding:5mm 6mm;font-size:10.6pt}
+.mov .lab{margin-bottom:1.5mm}
+.mov b{display:block;font-family:Fraunces;font-weight:600;font-size:20pt;color:#1F4E9C;letter-spacing:-.02em;line-height:1.1;margin-bottom:1.5mm}
+.ciud{display:grid;gap:2.5mm;margin-top:3mm}
+.ciud div{display:flex;gap:4mm;background:#FCFBF8;border-radius:3.5mm;padding:2.8mm 5mm;font-size:10.4pt}
+.ciud b{font-family:Fraunces;font-weight:600;font-size:12.5pt;color:#0E1B2E;min-width:40mm}
+/* trampas */
+.dark{background:#0D1A2D;color:rgba(246,244,239,.75)}
+.dark h2,.dark h3{color:#F6F4EF}
+.dark em{color:#EA8A62}
+.dark .lab{color:#8DB2EE}
+.dark .pie{border-top-color:rgba(246,244,239,.14);color:rgba(246,244,239,.4)}
+.tr{display:flex;gap:5mm;padding:5mm 0;border-bottom:.3mm solid rgba(246,244,239,.1)}
+.tr i{flex-shrink:0;width:9mm;height:9mm;border-radius:50%;border:.4mm solid #EA8A62;color:#EA8A62;display:grid;place-items:center;font-style:normal;font-family:Mono;font-size:7pt}
+.tr b{display:block;color:#F6F4EF;font-size:13pt;margin-bottom:1mm}
+.nadie{margin-top:8mm;background:#12233B;border-radius:4mm;padding:6mm 7mm}
+.nadie li{margin:2mm 0 0 4mm}
+/* checklist */
+.chk{list-style:none;counter-reset:c;display:grid;gap:2.2mm}
+.chk li{counter-increment:c;display:flex;gap:4mm;background:#FCFBF8;border-radius:3.5mm;padding:3mm 5mm;align-items:flex-start;font-size:11pt;line-height:1.45}
+.chk li::before{content:counter(c);flex-shrink:0;width:7mm;height:7mm;border-radius:50%;background:#DDE6F3;color:#1F4E9C;display:grid;place-items:center;font-family:Mono;font-size:7.5pt}
+.cta{background:#B84E29;color:#FCFBF8;border-radius:5mm;padding:6mm 8mm;margin-top:5mm;display:flex;justify-content:space-between;align-items:center;gap:6mm}
+.cta h3{color:#FCFBF8;font-size:18pt}
+.cta p{font-size:10.5pt;opacity:.9;margin-top:1.5mm}
+.cta .pr{text-align:right;flex-shrink:0}
+.cta .pr b{display:block;font-family:Fraunces;font-weight:600;font-size:30pt;line-height:1}
+.cta .pr span{font-size:8pt;opacity:.85}
+.src{margin-top:4mm;font-size:7.6pt;line-height:1.45;color:#56637A}
+.src ol{margin:1.5mm 0 0 4mm}
+.src a{color:#1F4E9C;text-decoration:none}

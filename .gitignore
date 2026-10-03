@@ -1,0 +1,9 @@
+.playwright-mcp/
+.DS_Store
+Thumbs.db
+_herramientas/.tmp/
+__pycache__/
+
+# Privado: solo en esta computadora (el repo es público)
+_herramientas/datos-privados.json
+automatizacion/

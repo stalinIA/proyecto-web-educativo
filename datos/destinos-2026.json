@@ -1,0 +1,467 @@
+{
+  "_meta": {
+    "titulo": "Datos clave para estudiar en el extranjero desde Latinoamérica · curso 2026-27",
+    "editor": "SLVERA Education Advisor · Abog. Stalin Leonardo Vera Ortega",
+    "actualizado": "2026-09-25",
+    "nota": "Cifras de orientación tomadas de fuentes oficiales y de mercado. Las condiciones cambian: verifica siempre en la fuente oficial antes de pagar o firmar. SLVERA no tramita visas."
+  },
+  "destinos": {
+    "australia": {
+      "pais": "Australia",
+      "codigo": "AU",
+      "moneda": "AUD",
+      "idioma": "Inglés",
+      "trabajo": {
+        "resumen": "48 horas por quincena durante el curso; sin límite en vacaciones oficiales.",
+        "fuente": "Department of Home Affairs"
+      },
+      "salario": {
+        "resumen": "Salario mínimo nacional: A$26,44 por hora desde el 1 de julio de 2026. Si trabajas como casual, mínimo A$33,05 por hora (incluye el 25 % de recargo).",
+        "hora": "A$26,44",
+        "hora_casual": "A$33,05",
+        "vigencia": "desde 1 jul 2026",
+        "fuente": "Fair Work Ombudsman"
+      },
+      "arriendo": {
+        "resumen": "Habitación en piso compartido: A$200–350 por semana. Residencia universitaria: A$230–610. Homestay con comidas: A$235–325.",
+        "filas": [
+          [
+            "Habitación en piso compartido",
+            "A$200 – 350 / semana"
+          ],
+          [
+            "Residencia universitaria",
+            "A$230 – 610 / semana"
+          ],
+          [
+            "Homestay (con comidas)",
+            "A$235 – 325 / semana"
+          ]
+        ],
+        "fuente": "Study Australia (Gobierno de Australia)"
+      },
+      "ciudades": [
+        [
+          "Sídney",
+          "La más cara y la de más oferta laboral."
+        ],
+        [
+          "Melbourne",
+          "Ciudad universitaria por excelencia; arriendos algo más bajos que Sídney."
+        ],
+        [
+          "Brisbane",
+          "Clima cálido y costo de vida intermedio."
+        ],
+        [
+          "Perth y Adelaida",
+          "Hasta 30 % más baratas que Sídney y Melbourne; buenas para ahorrar."
+        ]
+      ],
+      "extra": [
+        "El seguro médico para estudiantes (OSHC) es obligatorio durante toda la visa.",
+        "Todos los trabajadores, con visa o sin ella, tienen los mismos derechos laborales bajo la Fair Work Act."
+      ],
+      "fuentes": [
+        [
+          "Fair Work Ombudsman · Salarios mínimos",
+          "https://www.fairwork.gov.au/pay-and-wages/minimum-wages"
+        ],
+        [
+          "Home Affairs · Student visa (subclass 500)",
+          "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+        ],
+        [
+          "Study Australia · Alojamiento",
+          "https://www.studyaustralia.gov.au/en/life-in-australia/accommodation"
+        ],
+        [
+          "Translink · Tarifa de 50 centavos",
+          "https://translink.com.au/tickets-and-fares/50-cent-fares"
+        ],
+        [
+          "Transport for NSW · Estudiantes terciarios",
+          "https://transportnsw.info/tickets-fares/eligibility-concessions/tertiary-tafe-students"
+        ]
+      ],
+      "transporte": {
+        "resumen": "Depende mucho del estado. En Queensland (Brisbane, Gold Coast) cualquier viaje en bus, tren, tranvía o ferry cuesta A$0,50, y por ley ya es permanente. En Melbourne, los estudiantes internacionales de pregrado pueden sacar un pase anual con 50 % de descuento. En Sídney, los estudiantes internacionales pagan tarifa completa: el descuento de estudiante solo aplica con ciertas becas.",
+        "tabla": [
+          "A$0,50 por viaje",
+          "En Brisbane. En Sídney, sin descuento"
+        ],
+        "kpi": [
+          "Transporte",
+          "A$0,50",
+          "por viaje en Brisbane"
+        ],
+        "fuente": "Translink (Queensland) · Transport for NSW"
+      }
+    },
+    "malta": {
+      "pais": "Malta",
+      "codigo": "MT",
+      "moneda": "EUR",
+      "idioma": "Inglés (oficial junto al maltés)",
+      "trabajo": {
+        "resumen": "Hasta 20 horas por semana. En cursos de inglés, a partir de los 3 meses de estudio (curso de más de 90 días). En educación superior reconocida por MQRIC, desde el primer año. Necesitas licencia de empleo, que se tramita después del permiso de residencia.",
+        "fuente": "Identità · Central Visa Unit"
+      },
+      "salario": {
+        "resumen": "Salario mínimo 2026: €229,44 por semana, unos €5,74 por hora en jornada de 40 horas. Los trabajos de estudiante en hostelería suelen pagar algo más.",
+        "hora": "≈ €5,74",
+        "semana": "€229,44",
+        "vigencia": "desde 1 ene 2026",
+        "fuente": "DIER · Salario mínimo nacional"
+      },
+      "arriendo": {
+        "resumen": "Habitación en piso compartido: €500–900 en Sliema y St Julian's; €420–650 en Gżira; €400–600 en Msida, junto a la Universidad de Malta.",
+        "filas": [
+          [
+            "Sliema / St Julian's",
+            "€500 – 900 / mes"
+          ],
+          [
+            "Gżira",
+            "€420 – 650 / mes"
+          ],
+          [
+            "Msida (junto a la Universidad)",
+            "€400 – 600 / mes"
+          ]
+        ],
+        "fuente": "Rangos de anuncios de alquiler, 2026"
+      },
+      "ciudades": [
+        [
+          "Sliema y St Julian's",
+          "Donde están la mayoría de escuelas de inglés y la vida nocturna. Las más caras."
+        ],
+        [
+          "Gżira",
+          "Pegada a Sliema, algo más económica."
+        ],
+        [
+          "Msida y San Ġwann",
+          "Cerca de la Universidad de Malta; la opción de los universitarios."
+        ]
+      ],
+      "extra": [
+        "Los mejores pisos cerca del mar y de la universidad se alquilan antes de octubre.",
+        "Tu solicitud para trabajar tiene más posibilidades si el empleo se relaciona con lo que estudias (Identità)."
+      ],
+      "fuentes": [
+        [
+          "DIER · National Minimum Wage",
+          "https://dier.gov.mt/en/services/employment-conditions/wages/national-minimum-wage/"
+        ],
+        [
+          "Identità · Student Visa – Employment",
+          "https://identita.gov.mt/central-visa-unit-student-visa-employment/"
+        ],
+        [
+          "Gobierno de Malta · Transporte público gratuito",
+          "https://infrastructure.gov.mt/free-public-transport/"
+        ],
+        [
+          "Malta Public Transport · Tarjeta Tallinja personalizada",
+          "https://www.publictransport.com.mt/personalised-tallinja-card/"
+        ]
+      ],
+      "transporte": {
+        "resumen": "Gratis. Todos los residentes con la tarjeta Tallinja personalizada viajan sin pagar en las rutas de día, de noche y especiales de Malta y Gozo. Los estudiantes de 17 años o más la piden demostrando un curso a tiempo completo de más de tres meses.",
+        "tabla": [
+          "Gratis",
+          "Con la tarjeta Tallinja personalizada"
+        ],
+        "kpi": [
+          "Transporte",
+          "Gratis",
+          "con tarjeta Tallinja"
+        ],
+        "fuente": "Ministerio de Transporte de Malta · Malta Public Transport"
+      }
+    },
+    "alemania": {
+      "pais": "Alemania",
+      "codigo": "DE",
+      "moneda": "EUR",
+      "idioma": "Alemán o inglés según el programa",
+      "trabajo": {
+        "resumen": "140 días completos o 280 medios días por año, sin permiso adicional.",
+        "fuente": "Ley de Residencia (AufenthG) · DAAD"
+      },
+      "salario": {
+        "resumen": "Salario mínimo 2026: €13,90 por hora. Sube a €14,60 en 2027.",
+        "hora": "€13,90",
+        "vigencia": "desde 1 ene 2026",
+        "fuente": "Ministerio Federal de Trabajo (BMAS) · Mindestlohn"
+      },
+      "matricula": {
+        "resumen": "La mayoría de universidades públicas no cobran matrícula; solo pagas la contribución semestral de €100–400, que casi siempre incluye transporte público. Excepciones: Baden-Württemberg cobra €1.500 por semestre a estudiantes de fuera de la UE, y la TU München cobra €2.000–6.000 por semestre desde 2024.",
+        "fuente": "DAAD · Universidades"
+      },
+      "arriendo": {
+        "resumen": "Habitación en piso compartido (WG): €850 en Múnich, €650 en Berlín y Hamburgo, €640 en Colonia. Promedio nacional: €510.",
+        "filas": [
+          [
+            "Múnich",
+            "€850 / mes"
+          ],
+          [
+            "Berlín",
+            "€650 / mes"
+          ],
+          [
+            "Hamburgo",
+            "€650 / mes"
+          ],
+          [
+            "Colonia",
+            "€640 / mes"
+          ],
+          [
+            "Promedio nacional",
+            "€510 / mes"
+          ]
+        ],
+        "fuente": "Moses Mendelssohn Institut · semestre de invierno 2026"
+      },
+      "ciudades": [
+        [
+          "Berlín",
+          "Capital, internacional, con mucha oferta en inglés."
+        ],
+        [
+          "Múnich",
+          "La más cara del país, con universidades de élite."
+        ],
+        [
+          "Hamburgo y Colonia",
+          "Grandes, con arriendos parecidos a Berlín."
+        ],
+        [
+          "Leipzig y Dresde",
+          "Ciudades del este, bastante más baratas."
+        ]
+      ],
+      "extra": [
+        "La ciudad pesa más que la universidad en tu presupuesto: una habitación en Múnich (€850) cuesta 67 % más que el promedio del país (€510).",
+        "El salario mínimo sube de €13,90 a €14,60 en enero de 2027: si viajas para el curso 2026-27, en la segunda mitad cobras más."
+      ],
+      "fuentes": [
+        [
+          "DAAD · Costos de estudio y vida",
+          "https://www.daad.de/en/studying-in-germany/living-in-germany/finances/"
+        ],
+        [
+          "BMAS · Mindestlohn (Ministerio Federal de Trabajo)",
+          "https://www.bmas.de/DE/Arbeit/Arbeitsrecht/Mindestlohn/mindestlohn.html"
+        ],
+        [
+          "TUM · Tuition fees for non-EU students",
+          "https://www.tum.de/en/studies/fees/tuition"
+        ],
+        [
+          "Gobierno Federal · Deutschlandticket",
+          "https://www.bundesregierung.de/breg-de/aktuelles/deutschlandticket-2134074"
+        ],
+        [
+          "Deutsches Studierendenwerk · Deutschlandsemesterticket",
+          "https://www.studierendenwerke.de/beitrag/deutschlandsemesterticket-fuer-studierende-preis-vom-regulaeren-deutschlandticket-entkoppeln"
+        ]
+      ],
+      "transporte": {
+        "resumen": "El Deutschlandticket cuesta €63 al mes en 2026 y sirve para todo el transporte local y regional del país. Para estudiantes existe el Deutschlandsemesterticket: €37,80 al mes desde el semestre de invierno 2026-27 (€226,80 por semestre), y en las universidades que lo tienen ya viene incluido en la contribución semestral.",
+        "tabla": [
+          "€37,80 al mes",
+          "Pase de estudiante para todo el país"
+        ],
+        "kpi": [
+          "Transporte",
+          "€37,80",
+          "al mes, en todo el país"
+        ],
+        "fuente": "Gobierno Federal · Deutsches Studierendenwerk"
+      }
+    },
+    "dubai": {
+      "pais": "Dubái",
+      "codigo": "AE",
+      "moneda": "AED",
+      "idioma": "Inglés en los campus internacionales",
+      "trabajo": {
+        "resumen": "Se puede trabajar medio tiempo con un permiso del Ministerio de Recursos Humanos (MOHRE), casi siempre gestionado con apoyo de tu universidad. Lo habitual es hasta 15 horas por semana en clases y hasta 40 en vacaciones; cada universidad fija sus condiciones.",
+        "fuente": "MOHRE · universidades acreditadas"
+      },
+      "salario": {
+        "resumen": "No hay salario mínimo general para extranjeros en el sector privado (el mínimo de AED 6.000 al mes rige solo para ciudadanos emiratíes). Los trabajos de estudiante suelen pagar AED 20–60 por hora; retail y eventos, AED 20–35.",
+        "hora": "AED 20 – 60",
+        "fuente": "MOHRE · mercado laboral estudiantil"
+      },
+      "arriendo": {
+        "resumen": "Residencia estudiantil en Dubai International Academic City o Silicon Oasis: AED 2.250–4.250 al mes. Habitación compartida: AED 1.500–3.000. Cama en habitación compartida en International City: desde AED 600.",
+        "filas": [
+          [
+            "Residencia estudiantil (DIAC / Silicon Oasis)",
+            "AED 2.250 – 4.250 / mes"
+          ],
+          [
+            "Habitación compartida",
+            "AED 1.500 – 3.000 / mes"
+          ],
+          [
+            "Cama en International City",
+            "desde AED 600 / mes"
+          ]
+        ],
+        "fuente": "Rangos de mercado 2026"
+      },
+      "ciudades": [
+        [
+          "Dubái",
+          "Dubai International Academic City y Knowledge Park concentran los campus internacionales."
+        ],
+        [
+          "Abu Dabi",
+          "Capital, con universidades de gran presupuesto."
+        ],
+        [
+          "Sharjah",
+          "A 20 minutos de Dubái y bastante más barata para vivir."
+        ]
+      ],
+      "extra": [
+        "El salario mínimo de AED 6.000 que rige desde enero de 2026 es solo para ciudadanos emiratíes, no para estudiantes extranjeros.",
+        "Las residencias estudiantiles suelen incluir agua, luz, aire acondicionado e internet: compáralas con un piso compartido sumando esos gastos."
+      ],
+      "fuentes": [
+        [
+          "MOHRE · Salario mínimo para emiratíes 2026",
+          "https://www.mohre.gov.ae/en/media-center/news/31/12/2025/mohre-raises-minimum-wage-for-emiratis-in-the-private-sector-to-aed-6000-per-month-effective-1"
+        ],
+        [
+          "Knowledge and Human Development Authority (KHDA)",
+          "https://www.khda.gov.ae/"
+        ],
+        [
+          "RTA · Tarjeta Nol de estudiante",
+          "https://rta-student.mystudentcard.org/"
+        ]
+      ],
+      "transporte": {
+        "resumen": "Con la tarjeta Nol de estudiante, para estudiantes a tiempo completo de 5 a 23 años, tienes 50 % de descuento en metro, tranvía y bus: de AED 1,50 a 3,75 por viaje, según las zonas. Si tienes más de 23 años, pagas la tarifa normal.",
+        "tabla": [
+          "AED 1,50–3,75",
+          "Por viaje con Nol de estudiante (hasta 23 años)"
+        ],
+        "kpi": [
+          "Transporte",
+          "AED 1,50–3,75",
+          "por viaje, hasta 23 años"
+        ],
+        "fuente": "RTA Dubái · tarjeta Nol de estudiante"
+      }
+    },
+    "espana": {
+      "pais": "España",
+      "codigo": "ES",
+      "moneda": "EUR",
+      "idioma": "Español",
+      "trabajo": {
+        "resumen": "Si estudias educación superior, puedes trabajar hasta 30 horas por semana sin pedir otra autorización, siempre que sea compatible con tus estudios. Rige desde el 20 de mayo de 2025.",
+        "fuente": "Real Decreto 1155/2024 · Reglamento de Extranjería"
+      },
+      "salario": {
+        "resumen": "Salario mínimo 2026: €1.221 al mes en 14 pagas (€17.094 al año). Si trabajas por horas, la referencia oficial es €9,55 por hora, con la parte proporcional de pagas extra y vacaciones ya incluida.",
+        "hora": "€9,55",
+        "mes": "€1.221 × 14",
+        "vigencia": "desde 1 ene 2026",
+        "fuente": "Real Decreto 126/2026 (BOE)"
+      },
+      "arriendo": {
+        "resumen": "Habitación en piso compartido: €600 en Barcelona, €550 en Madrid, €450 en Málaga y Bilbao. Promedio nacional: €425 al mes.",
+        "filas": [
+          [
+            "Barcelona",
+            "€600 / mes"
+          ],
+          [
+            "Madrid",
+            "€550 / mes"
+          ],
+          [
+            "Málaga",
+            "€450 / mes"
+          ],
+          [
+            "Bilbao",
+            "€450 / mes"
+          ],
+          [
+            "Promedio nacional",
+            "€425 / mes"
+          ]
+        ],
+        "fuente": "idealista · 2.º trimestre 2026"
+      },
+      "ciudades": [
+        [
+          "Madrid",
+          "La mayor oferta universitaria y laboral."
+        ],
+        [
+          "Barcelona",
+          "Internacional, pero la habitación más cara del país."
+        ],
+        [
+          "Valencia y Málaga",
+          "Mediterráneo, buena calidad de vida."
+        ],
+        [
+          "Salamanca y Granada",
+          "Ciudades universitarias clásicas; es común que la habitación incluya gastos."
+        ]
+      ],
+      "extra": [
+        "Desde abril de 2026, el cambio de la estancia por estudios a otra autorización se puede pedir en los dos meses previos o en los tres posteriores a su vencimiento (RD 316/2026, art. 190.6).",
+        "Barcelona es la habitación más cara del país (€600), pero en Salamanca o Granada es común que el precio ya incluya los gastos."
+      ],
+      "fuentes": [
+        [
+          "BOE · Real Decreto 126/2026 (SMI 2026)",
+          "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-3815"
+        ],
+        [
+          "BOE · Real Decreto 1155/2024 (Reglamento de Extranjería)",
+          "https://www.boe.es/buscar/act.php?id=BOE-A-2024-24099"
+        ],
+        [
+          "idealista · Precio de habitaciones 2T 2026",
+          "https://www.idealista.com/news/inmobiliario/vivienda/2026/08/24/910850-la-oferta-de-habitaciones-sigue-creciendo-entre-abril-y-junio-12-su-precio-apenas"
+        ],
+        [
+          "BOE · Real Decreto 316/2026",
+          "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-8284"
+        ],
+        [
+          "Comunidad de Madrid · Precios del transporte 2026",
+          "https://www.comunidad.madrid/noticias/2025/12/29/comunidad-madrid-prorroga-bonificaciones-mantiene-precios-transporte-publico-2026"
+        ]
+      ],
+      "transporte": {
+        "resumen": "En Madrid, el Abono Joven cuesta €10 al mes para personas de 15 a 25 años y sirve en todas las zonas; desde los 26, el abono mensual de la zona A cuesta €32,70. Esos precios rigen hasta el 31 de diciembre de 2026. Otras ciudades tienen sus propios abonos para jóvenes.",
+        "tabla": [
+          "€10 al mes",
+          "Abono Joven de Madrid, hasta 25 años"
+        ],
+        "kpi": [
+          "Transporte",
+          "€10 / mes",
+          "Abono Joven Madrid (hasta 25)"
+        ],
+        "fuente": "Comunidad de Madrid"
+      }
+    }
+  }
+}
